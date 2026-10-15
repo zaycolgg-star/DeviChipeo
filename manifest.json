@@ -1,0 +1,13 @@
+{
+  "id": "./",
+  "name": "DeviChipeo Premium",
+  "short_name": "DeviChipeo",
+  "description": "Tu música con sonido y estilo propio",
+  "lang": "es",
+  "start_url": "./DeviChipeoPro.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#080809",
+  "theme_color": "#ff003c"
+}

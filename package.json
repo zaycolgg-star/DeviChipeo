@@ -1,0 +1,50 @@
+{
+  "name": "devichipeo",
+  "version": "1.0.0",
+  "description": "DeviChipeo Premium - reproductor de música",
+  "main": "main.js",
+  "author": "Devi62",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win --publish never",
+    "release": "electron-builder --win --publish always"
+  },
+  "dependencies": {
+    "electron-updater": "^6.6.2"
+  },
+  "devDependencies": {
+    "electron": "^38.0.0",
+    "electron-builder": "^26.0.0"
+  },
+  "build": {
+    "appId": "com.devi.devichipeo",
+    "productName": "DeviChipeo Premium",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "index.html",
+      "supabase-config.js",
+      "package.json"
+    ],
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "PON_AQUI_TU_USUARIO_DE_GITHUB",
+        "repo": "DeviChipeo"
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        }
+      ],
+      "artifactName": "DeviChipeo-Premium-Setup-${version}.${ext}",
+      "publisherName": "Devi62"
+    }
+  }
+}
