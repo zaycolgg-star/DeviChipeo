@@ -1,7 +1,7 @@
-{
+﻿{
   "name": "devichipeo",
   "version": "1.0.0",
-  "description": "DeviChipeo Premium - reproductor de música",
+  "description": "DeviChipeo Premium - reproductor de musica",
   "main": "main.js",
   "author": "Devi62",
   "license": "MIT",
@@ -32,7 +32,7 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "PON_AQUI_TU_USUARIO_DE_GITHUB",
+        "owner": "zaycolgg-star",
         "repo": "DeviChipeo"
       }
     ],
@@ -43,8 +43,7 @@
           "arch": ["x64"]
         }
       ],
-      "artifactName": "DeviChipeo-Premium-Setup-${version}.${ext}",
-      "publisherName": "Devi62"
+      "artifactName": "DeviChipeo-Premium-Setup-${version}.${ext}"
     }
   }
 }
