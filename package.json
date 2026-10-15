@@ -33,7 +33,8 @@
       {
         "provider": "github",
         "owner": "zaycolgg-star",
-        "repo": "DeviChipeo"
+        "repo": "DeviChipeo",
+        "releaseType": "release"
       }
     ],
     "target": [
