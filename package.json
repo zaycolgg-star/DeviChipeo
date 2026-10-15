@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "devichipeo",
   "version": "1.0.0",
   "description": "DeviChipeo Premium - reproductor de musica",
@@ -36,14 +36,14 @@
         "repo": "DeviChipeo"
       }
     ],
-    "win": {
-      "target": [
-        {
-          "target": "nsis",
-          "arch": ["x64"]
-        }
-      ],
-      "artifactName": "DeviChipeo-Premium-Setup-${version}.${ext}"
-    }
+    "target": [
+      {
+        "target": "nsis",
+        "arch": [
+          "x64"
+        ]
+      }
+    ],
+    "artifactName": "DeviChipeo-Premium-Setup-${version}.${ext}"
   }
 }
